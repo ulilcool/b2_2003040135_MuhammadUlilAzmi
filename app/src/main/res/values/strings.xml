@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">b2_2003040135_MuhammadUlilAzmi</string>
+    <string name="point_mata_kuliah">Point Mata Kuliah</string>
+    <string name="jumlah_sks">Jumlah SKS</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil_akhir">Hasil Akhir</string>
+    <string name="hasil_huruf">Hasil Huruf</string>
+</resources>

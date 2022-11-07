@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/point_mata_kuliah" />
+
+    <EditText
+        android:id="@+id/edt_Point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:minHeight="48dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jumlah_sks" />
+
+    <EditText
+        android:id="@+id/edt_SKS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_Hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil_akhir"/>
+
+    <EditText
+        android:id="@+id/edt_Akhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:minHeight="48dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil_huruf"/>
+
+    <EditText
+        android:id="@+id/edt_Huruf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:minHeight="48dp" />
+</LinearLayout>
